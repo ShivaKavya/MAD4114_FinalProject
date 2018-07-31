@@ -15,6 +15,7 @@
 		FC2926AC2108F58F00C59803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC2926AA2108F58F00C59803 /* LaunchScreen.storyboard */; };
 		FC2926B72108F58F00C59803 /* MAD4114_FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2926B62108F58F00C59803 /* MAD4114_FinalProjectTests.swift */; };
 		FC2926C22108F58F00C59803 /* MAD4114_FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2926C12108F58F00C59803 /* MAD4114_FinalProjectUITests.swift */; };
+		FCE45A0A210FA78900450E3F /* notesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE45A09210FA78900450E3F /* notesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FC2926BD2108F58F00C59803 /* MAD4114_FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAD4114_FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC2926C12108F58F00C59803 /* MAD4114_FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD4114_FinalProjectUITests.swift; sourceTree = "<group>"; };
 		FC2926C32108F58F00C59803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCE45A09210FA78900450E3F /* notesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				FC29269E2108F58D00C59803 /* AppDelegate.swift */,
 				FC2926A02108F58D00C59803 /* ViewController.swift */,
+				FCE45A09210FA78900450E3F /* notesViewController.swift */,
 				FC2926A22108F58D00C59803 /* Main.storyboard */,
 				FC2926A82108F58F00C59803 /* Assets.xcassets */,
 				FC2926AA2108F58F00C59803 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCE45A0A210FA78900450E3F /* notesViewController.swift in Sources */,
 				FC2926A12108F58D00C59803 /* ViewController.swift in Sources */,
 				FC29269F2108F58D00C59803 /* AppDelegate.swift in Sources */,
 				FC2926A72108F58D00C59803 /* MAD4114_FinalProject.xcdatamodeld in Sources */,
